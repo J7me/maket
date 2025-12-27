@@ -1,0 +1,431 @@
+@import url('fonts.googleapis.com');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+ 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+} 
+ 
+.map {
+    width: 100%;
+    background-image: url(../img/location.png);
+    height: 400px;
+    background-size: cover;
+
+
+}
+
+.map>p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.addr {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    justify-content: space-between;
+}
+
+.df-footer {
+    display: flex;
+    gap: 21.5px;
+    width: 115px;
+    height: 24px;
+}
+
+.mapblock {
+    background-color: white;
+    display: flex;
+    width: 570px;
+    height: 201px;
+    padding-right: 76px;
+    padding-left: 76px;
+    padding-top: 66px;
+    padding-bottom: 51px;
+    margin-left: 308px;
+    margin-top: 128px;
+}
+
+.df-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockslider {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.blockslider>img {
+    position: relative;
+    top: -5px;
+}
+
+.blockslider>p {
+    font-size: 20px;
+}
+
+.df2>p {
+    font-size: 20px;
+}
+
+.df {
+    display: flex;
+    width: 398px;
+    height: 106px;
+    align-items: center;
+    gap: 62px;
+}
+
+.df2 {
+    display: flex;
+    text-transform: uppercase;
+    gap: 63px;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 35px;
+    color: #F1CDB3;
+}
+
+.smalltext {
+    font-size: 22px;
+    color: #000000;
+}
+
+header {
+    width: 100%;
+    background-image: url(../img/start-screen-background.jpg);
+    height: 908px;
+    background-size: cover;
+
+}
+
+.shapka {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    margin-bottom: 62px;
+
+}
+
+.nav {
+    display: flex;
+    width: 833px;
+    gap: 35px;
+}
+
+
+.nav>a {
+    font-size: 18px;
+    color: #CDCDCD;
+    font-weight: bold;
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    gap: 42px;
+
+}
+
+body>header>div.main>img {
+    position: relative;
+    left: -600px;
+}
+
+.main-button {
+    width: 244px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #68B738;
+    font-size: 17px;
+    border: none;
+}
+
+.main-block>h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+}
+
+.about-block {
+    width: 570px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    background-color: #e5e4e4;
+    padding: 40px;
+}
+
+.about-block>h2 {
+    font-size: 34px;
+}
+
+.about-block>P {
+    font-size: 17px;
+    width: 467px;
+}
+
+.about>img {
+    width: 300px;
+    height: 408px;
+}
+
+.about-bt {
+    text-transform: uppercase;
+    width: 168px;
+    height: 38px;
+    border: none;
+    font-size: 20px;
+}
+
+
+.slider-block {
+    display: flex;
+    gap: 90px;
+    width: 100%;
+    justify-content: center;
+}
+
+.animal-card {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 430px;
+    align-items: center;
+    gap: 30px;
+    background-color: #FAFAFA;
+}
+
+.slider {
+    width: 207px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292929;
+
+    border-radius: 50px;
+    border: #F1CDB3 solid 1px;
+}
+
+.slider-prev {
+    width: 52px;
+    height: 52px;
+    margin-right: -38px;
+    margin-top: 10%;
+}
+
+.slider-next {
+    width: 52px;
+    height: 52px;
+    margin-left: -38px;
+    margin-top: 10%;
+}
+
+
+.help {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: center;
+    width: 1346px;
+    gap: 60px;
+}
+
+.help>h2 {
+    font-size: 40px;
+}
+.helpdf {
+    display: flex;
+    width: 206px;
+}
+.helpdf>img { 
+    width: 100px;
+    height: 200px;
+}
+.helpdf2 {
+    display: flex;
+    width: 206px;
+}
+
+.helpdf2>img {
+    width: 100px;
+    height: 200px;
+}
+.helpdf3 {
+    display: flex;
+    width: 206px;
+}
+
+.helpdf3>img {
+    width: 100px;
+    height: 200px;
+}
+.helpdf4 {
+    display: flex;
+    width: 206px;
+}
+
+.helpdf4>img {
+    width: 100px;
+    height: 200px;
+}
+.help-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    gap: 122px;
+    justify-content: center;
+}
+
+.help-card {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    width: 166px;
+     
+}
+
+.help-card>img {
+    width: 60px;
+    height: 60px;
+}
+
+.donation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 120px;
+    padding-top: 80px;
+    padding-right: 182px;
+    padding-left: 182px;
+    padding-bottom: 100px; 
+}
+.donation::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 680px;
+    background-image: url(../img/bg.png);
+    z-index: -999;
+    top: 2278px;
+    
+}
+.donation-block {
+    width: 434px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.donation>img {
+    width: 690px;
+    height: 656px;
+}
+
+.donat-card {
+    display: flex;
+    gap: 15px;
+
+    width: 366px;
+    height: 80px;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+
+}
+
+.donat-card>div {
+
+    font-size: 18px;
+    display: flex;
+    width: 274px;
+    justify-content: space-between;
+}
+
+.donation-block>h2 {
+    font-size: 42px;
+    width: 322px;
+    margin-bottom: 160px;
+}
+
+footer {
+    width: 100%;
+    background-color: #e5e4e4;
+    height: 150px;
+    background-size: cover;
+    padding: 40px;
+
+}
+
+.fblock-info {
+    display: flex;
+    gap: 20px;
+    color: #F1CDB3;
+}
+
+.footer-block {
+    color: white;
+    width: 302px;
+    display: flex;
+    gap: 34px;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+}
+
+
+
+.nav>a:hover {
+    border-bottom: #F1CDB3 solid 3px;
+}
